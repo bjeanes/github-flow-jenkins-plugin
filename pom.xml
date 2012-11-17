@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.490</version><!-- which version of Jenkins is this plugin built against? -->
+        <version>1.488</version><!-- which version of Jenkins is this plugin built against? -->
     </parent>
 
     <groupId>com.bjeanes</groupId>
@@ -33,6 +33,12 @@
             <artifactId>org.eclipse.egit.github.core</artifactId>
             <version>2.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.jenkinsci.plugins</groupId>
+            <artifactId>git</artifactId>
+            <version>1.1.17</version>
+        </dependency>
+
     </dependencies>
 
     <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->

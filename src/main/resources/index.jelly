@@ -1,6 +1,4 @@
-<!--
-  This view is used to render the installed plugins page.
--->
 <div>
-  This plugin is a sample to explain how to write a Jenkins plugin.
+    GitHub Flow provides the ability to trigger jobs from Pull Requests and updates to the master branch
+    and to report back the status of commits using the GitHub Commit Status API.
 </div>
